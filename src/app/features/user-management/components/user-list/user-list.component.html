@@ -1,0 +1,28 @@
+
+<div class="user-list p-3">
+    <div class="d-flex gap-4 justify-content-between align-items-center mb-3">
+        <h5 class="mb-0">Users</h5>
+        <select class="form-select form-select-sm w-auto" name="gender" id="gender" [(ngModel)]="gender" (change)="getUsers()">
+            <option selected value="">Filter by gender</option>
+            <option value="female">female</option>
+            <option value="male">male</option>
+        </select>
+    </div>
+    <hr>
+    
+    <div class="row mt-2">
+        <div class="d-flex justify-content-center align-items-center" *ngIf="loading">
+            <div class="spinner-border text-primary" role="status" *ngIf="loading">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mb-2" *ngFor="let user of users">
+            <app-user-detail *ngIf="!loading" [user]="user"></app-user-detail>
+        </div>
+    </div>
+</div>
+
+
+
+
