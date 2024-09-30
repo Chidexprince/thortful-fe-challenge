@@ -15,7 +15,7 @@
         <!-- data -->
         <ng-container *ngIf="!isLoading && !error; else loadingOrError">
             <ng-container *ngIf="users.length; else empty">
-                <div class="col-lg-4 col-md-6 mb-2" *ngFor="let user of users">
+                <div class="col-lg-4 col-md-6 mb-5" *ngFor="let user of users">
                     <app-user-detail [user]="user"></app-user-detail>
                 </div>
             </ng-container>

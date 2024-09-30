@@ -1,9 +1,10 @@
+@import 'src/styles/_variables.scss';
 
 .navbar {
-    background-color: #4a90e2;
+    background-color: $primary-color;
 
 
     .active {
-        color: #ffffff;
+        color:$white;
     }
 }

@@ -1,6 +1,8 @@
+ @import 'src/styles/_variables.scss';
+
  .card {
     border-radius: 20px;
-    min-height: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
     .card-body {
         padding: 20px;
@@ -22,6 +24,7 @@
 
     .user-content .user-name {
         margin-right: 150px;
+        color: $primary-color;
     }
 }
 
