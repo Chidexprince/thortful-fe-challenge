@@ -5,14 +5,14 @@
                 <img [src]="user.picture.large" height="130" width="130" />
             </div>
             <div class="user-content">
-                <h5 class="text-capitalize user-name">{{ user.name.first + ' ' + user.name.last }}</h5>
-                <p class=" text-capitalize text-muted small blockquote-footer">{{user.gender}}</p>
-        
-                <ul class="mt-5">
-                    <li>{{user.email}}</li>
-                    <li>{{user.phone}}</li>
-                    <li>{{user.location.country}}</li>
-                    <li>{{user.dob.age}} years</li>
+                <h5 class="text-capitalize user-name mb-3">{{ user.name.first + ' ' + user.name.last }}</h5>
+                <p class=" text-capitalize text-muted small blockquote-footer gender">{{user.gender}}</p>
+                <ul class="list-group mt-5">
+                    <li class="list-group-item email"><i class="fas fa-mail-bulk me-1"></i> {{user.email}}</li>
+                    <li class="list-group-item phone"><i class="fas fa-phone me-1"></i>{{user.phone}}</li>
+                    <li class="list-group-item location"><i class="fas fa-map-location-dot me-1"></i>{{user.location.street.number + ' ' +
+                        user.location.street.name }}</li>
+                    <li class="list-group-item age"><i class="fas fa-calendar me-1"></i>{{user.dob.age}} years</li>
                 </ul>
             </div>
         </div>

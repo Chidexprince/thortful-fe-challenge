@@ -1,6 +1,28 @@
  .card {
     border-radius: 20px;
     min-height: 100%;
+
+    .card-body {
+        padding: 20px;
+    }
+
+    .user-picture img {
+        position: absolute;
+        top: -20%;
+        right: 10%;
+        border-radius: 100%;
+        object-fit: contain;
+        background: #f8f9fa;
+        padding: 10px;
+        -webkit-border-radius: 100%;
+        -moz-border-radius: 100%;
+        -ms-border-radius: 100%;
+        -o-border-radius: 100%;
+    }
+
+    .user-content .user-name {
+        margin-right: 150px;
+    }
 }
 
 .heading-border {
@@ -9,20 +31,10 @@
     top: 60%;
 }
 
-.card .user-picture img {
-    position: absolute;
-    top: -20%;
-    right: 10%;
-    border-radius: 100%;
-    object-fit: contain;
-    background: #f8f9fa;
-    padding: 10px;
-    -webkit-border-radius: 100%;
-    -moz-border-radius: 100%;
-    -ms-border-radius: 100%;
-    -o-border-radius: 100%;
-}
 
-.card .user-content .user-name {
-    margin-right: 150px;
+.list-group{
+    .list-group-item {
+        border: 0;
+        padding: 8px 0;
+    }
 }
