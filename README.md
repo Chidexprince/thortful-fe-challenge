@@ -1,4 +1,4 @@
-# ThortfulFeChallenge
+# ThortfulFEChallenge
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.16 (Ensure to have the supported version of Node installed ^16.14.0). [Randomuser](https://randomuser.me/) API was used for data.
 
