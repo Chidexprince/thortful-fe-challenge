@@ -1,10 +1,15 @@
 # ThortfulFeChallenge
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.16.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.16 (Ensure to have the supported version of Node installed ^16.14.0). [Randomuser](https://randomuser.me/) API was used for data.
 
-## Development server
+## Setting Up
+- Clone repo `git clone https://github.com/Chidexprince/thortful-fe-challenge.git`
+- Install all necessary dependencies `npm install`
+- Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
 ## Code scaffolding
 
@@ -13,10 +18,6 @@ Run `ng generate component component-name` to generate a new component. You can 
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
 ## Running end-to-end tests
 
